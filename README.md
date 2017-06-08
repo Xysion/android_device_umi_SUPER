@@ -1,7 +1,7 @@
-UMi Super - CyanogenMod 13.0/AOSP
+UMi Super - LineageOS 14.1/AOSP
 ==============
 
-This branch is device for building of the CyanogenMod 13.0 and Android Marshmallow 6.X AOSP ROMs.
+This branch is device for building of the LineageOS 14.1 and Android Nougat 7.X AOSP ROMs.
 
 ---
 
@@ -9,7 +9,7 @@ This branch is device for building of the CyanogenMod 13.0 and Android Marshmall
 
 ![UMi Super](http://www.umidigi.com/new/Images/super/so_back.png "UMi Super in grey")
 
-The UMi Super (codenamed _"SUPER"_) is a flagship smartphone from UMi. The SUPER now supports CyanogenMod 13.0!
+The UMi Super (codenamed _"SUPER"_) is a flagship smartphone from UMi. The SUPER now supports LineageOS 14.1!
 
 ### Specifications
 
@@ -73,11 +73,11 @@ Front Camera | 5MP (GalaxyCore GC5005)
  * Moyster
 
 ### How to build:
-First of all [clone LineageOS repo](https://github.com/LineageOS/android/tree/cm-13.0), then use this local manifest to sync:
+First of all [clone LineageOS repo](https://github.com/LineageOS/android/tree/cm-14.1), then use this local manifest to sync:
 
 ```
 <manifest>
-	<project path="device/umi/SUPER" name="joe2k01/android_device_umi_SUPER" remote="github" revision="cm-13.0"/>
+	<project path="device/umi/SUPER" name="joe2k01/android_device_umi_SUPER" remote="github" revision="cm-14.1"/>
         <project path="vendor/umi/SUPER" name="joe2k01/android_vendor_umi_SUPER" remote="github" revision="master"/>
 </manifest>
 ```
